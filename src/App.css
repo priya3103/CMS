@@ -1,0 +1,327 @@
+.App {
+  display: flex;
+}
+
+
+
+
+  
+
+.ListView{
+ 
+  flex: 0 0 50%;
+  margin:10px;
+}
+.ListDetail{
+    flex: 0 0 50%;
+    margin: 10px 30px;
+    background-color: #d9d0d0  ;
+    padding: 15px;
+}
+.listHeader{
+display:flex;
+background-color: #f2f2f2;
+height: 40px;
+align-items: center;
+}
+.listHeader1{
+flex:0 0 8%;
+margin-left:25px;
+}
+.listHeader2{
+  flex:0 0 57%;
+
+}
+.listHeader3{
+  flex:0 0 30%;
+}
+.fapencilsquare
+{
+      padding-right: 3px;
+    margin-top: 5px;
+}
+.editdiv{
+  position: absolute;
+    top: 25px;
+    right: 65px;
+    cursor: pointer;
+}
+.flexcenter{
+  display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.ListBody{
+  display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+  }
+  
+.ListBodySelect{
+  display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d0d0;
+    padding: 10px;
+  }
+
+  .Icon{
+  flex:0 0 10%;
+  margin-left:10px;
+  }
+  .ContactInfo{
+    flex:0 0 60%;
+  
+  }
+  .CompanyName{
+    flex:0 0 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cp{
+    position: absolute;
+    left: -14px;
+    top: 12px;
+  }
+  .ck1
+  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+
+  }
+  .ck2
+  {
+    margin: 0px !important;
+  }
+  .ck3
+  {
+    padding-top:0px !important; 
+  }
+  .ct1{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .ct2{
+   font-size: 10px;
+  }
+* {
+  box-sizing: border-box;
+}
+
+
+.example input[type=text] {
+     padding-left: 10px;
+    font-size: 14px;
+    border: 1px solid #f1f1f1;
+    float: left;
+    width: 100%;
+    background: #f1f1f1;
+    border-radius: 30px;
+    height: 32px;
+}
+.padd-zero{
+  padding: 0px !important;
+}
+.icn{
+  position: absolute;
+    top: 10px;
+  right: 55%;
+   cursor: pointer;
+}
+.butcnt{
+   width: 55%;
+    padding-left: 6%;
+    margin-top: -8px;
+}
+.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+.seldiv{
+  position: absolute;
+    right: 10px;
+    top: 25px;
+}
+.AddTitle
+{
+    padding-left: 25px;
+    font-size: 20px;
+    font-weight: 500;
+}
+select{
+  border: none !important;
+}
+select:focus {
+    outline: none !important;
+}
+.faplussquare
+{
+  font-size: 20px !important;
+    margin-top: 5px !important;
+    cursor: pointer;
+}
+textarea{
+  border-radius: 5px !important;
+}
+.example
+{
+  width: 45%;
+}
+.example button:hover {
+  background: #0b7dda;
+}
+.example input:hover {
+  box-shadow: none !important;
+  border-bottom:none !important;
+}
+.example input:focus {
+  box-shadow: none !important;
+  border-bottom:none !important;
+}
+.example input:active {
+  box-shadow: none !important;
+  border-bottom:none !important;
+}
+.Addcontact{
+  padding: 10px;
+    width: 130px;
+    background: linear-gradient(to right, #ff8075 0%, #fe6c99 100%);
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.flex{
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fapuls{
+  font-size: 10px;
+    padding-right: 5px;
+}
+/* Clear floats */
+.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.InfoStyle{
+  display:flex;
+}
+.NameTag{
+  width: 36px;
+  height: 36px;
+  border-radius: 18px;
+  background-color: green;
+  justify-content: center;
+  align-items: center;
+}
+
+.NameTagValue{
+  text-align: center;
+  font-size: 14px;
+  
+  color: white;
+  
+  margin-top: 7px;
+
+}
+.ContactDetails{
+  margin-left:6px ;
+}
+.Email{
+  font-size: 13px;
+  color: grey;
+  line-height: 13px
+
+}
+.ListName{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 45px;
+  margin-top:10px;
+
+
+  
+}
+.NameTagDetail{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #ffdb99
+
+  ;
+  justify-content: center;
+  align-items: center;
+}
+.TagName{
+  text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 19px;
+
+}
+.ContactName{
+  margin-top: 8px;
+  font-size: 20px;
+}
+
+.PositionName{
+  font-size: 13px;
+  color: grey;
+  line-height: 13px;
+}
+.ListDetail2{
+  margin-left: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.listDetailHeader{
+  display: flex;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.listDetailHeader1{
+  flex: 0 0 30%;
+  margin-left: 10px;
+  color: grey;
+  font-size: 15px;
+}
+.listDetailHeader2{
+  flex: 0 0 50%;
+  font-size: 15px;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.formstyle{
+  width:100%;
+  padding: 5%;
+}
